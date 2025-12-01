@@ -1,0 +1,21 @@
+# NeuroNet - Requisitos de Python
+# =================================
+
+# Compilación
+cython>=0.29.0
+
+# Visualización (solo para dibujar, NO para cálculos)
+networkx>=2.5
+matplotlib>=3.3.0
+
+# GUI
+# tkinter viene incluido con Python
+
+# Desarrollo y pruebas
+pytest>=6.0.0
+
+# Opcional: Visualización interactiva web
+pyvis>=0.1.9
+
+# Opcional: Mejor rendimiento en visualización
+numpy>=1.19.0
